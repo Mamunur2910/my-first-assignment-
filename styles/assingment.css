@@ -1,0 +1,53 @@
+
+
+/* reset default */
+{margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-sefari;
+}
+body{background-colour:#fff;color:#111;}
+/* commit 1 */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3opx 50px;
+    background-color: #fff;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:#3f48cc ;
+
+}
+.singup-btn{
+    background: color #3f48cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero{
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #fff;
+}
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.cta-btn{
+    background-color: #3f48cc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
